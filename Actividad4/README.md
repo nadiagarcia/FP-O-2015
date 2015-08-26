@@ -5,10 +5,15 @@ El objetivo de la siguiente actividad es ejercitar las operaciones booleanas apl
 1. El domingo de Pascua es el primer domingo después de la primera luna llena posterior al equinoccio de primavera, y se determina mediante el siguiente cálculo:
 
 	A = año % 19
+
 	B = año % 4
+
 	C = año % 7
+
 	D = (19 * A + 24) % 30
+
 	E = (2 * B + 4 * C + 6 * D + 5) % 7
+
 	F = (22 + D + E)
 
     Donde F indica el número de día del mes de marzo (si F es igual o menor que 31) o abril (si es mayor a 31). 
