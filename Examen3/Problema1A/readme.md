@@ -1,0 +1,1 @@
+Escribe un programa en C que al recibir como dato un arreglo unidimensional desordenado de N enteros, obtenga como salida ese mismo arreglo pero sin los elementos repetidos. Deberá hacer uso de funciones para: ordenar el arreglo, e imprimir el arreglo. Evite el usio de variables globales.
